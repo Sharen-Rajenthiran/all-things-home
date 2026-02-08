@@ -4,7 +4,13 @@ import { Product, CartItem } from '@/data/products';
 
 interface CartContextType {
     cart: CartItem[];
-    addToCart: (product: Product, quantity: number) => void;
+    addToCart: (product: Product, 
+        quantity: number,
+        selectedColor?: string,
+        selectedSize?: string,
+        selectedDesign?: string
+    ) => void;
+    removeFromCart: (productId: number, size?: string, design?: string) => void;
     clearCart: () => void;
     totalPrice: number;
 }
