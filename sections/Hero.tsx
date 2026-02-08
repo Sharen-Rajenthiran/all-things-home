@@ -1,14 +1,12 @@
 import Image from "next/image";
 
-const base = "/all-things-home";
-
 export default function Hero() {
   return (
     <section className="relative h-[90vh] bg-[#2B5EA7] flex items-center px-6 md:px-24 pt-20">
       
       {/* Background Image */}
       <Image
-        src={`${base}/hero/hero.png`}
+        src={"/hero/hero.png"}
         alt="Hero image"
         fill
         className="object-cover"

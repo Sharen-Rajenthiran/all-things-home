@@ -10,7 +10,7 @@ export default function About() {
                 <div className="relative h-[500px] w-full">
                     <div className="absolute inset-0 flex items-center justify-center text-gray-400">
                         <Image
-                            src={`${base}/logo/all-things-home-removebg.png`}
+                            src={"/logo/all-things-home-removebg.png"}
                             alt="shop-logo"
                             fill
                             className="object-contain"

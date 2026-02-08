@@ -10,7 +10,7 @@ export default function Promotions() {
         {/* Left Promo */}
         <div className="relative h-96">
           <Image
-            src={`${base}/products/clothes/1.jpg`}
+            src={"/products/clothes/1.jpg"}
             alt="Where dreams meet couture"
             fill
             className="object-contain"
@@ -34,7 +34,7 @@ export default function Promotions() {
         {/* Right Promo */}
         <div className="relative h-96">
           <Image
-            src={`${base}/products/clothes/10.jpg`}
+            src={"/products/clothes/10.jpg"}
             alt="Enchanting styles for every woman"
             fill
             className="object-cover"
