@@ -2,14 +2,14 @@ import type { NextConfig } from "next";
 const repoName = "all-things-home";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // output: "export",
   
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
-  },
+  // basePath: `/${repoName}`,
+  // assetPrefix: `/${repoName}/`,
+  // trailingSlash: true,
+  // images: {
+  //   unoptimized: true,
+  // },
 };
 
 export default nextConfig;

@@ -17,7 +17,7 @@ export default function Orders() {
             `- ${item.name} (${item.selectedSize || 'N/A'}) x${item.quantity}`
         ).join('\n');
 
-        const phoneNumber = "60136302527";
+        const phoneNumber = "0123456789";
 
         // Create a clean string with standard new lines
         const message = `Hi All Things Home! I'd like to place an order:\n\nName: ${name}\nItems:\n${orderList}\n\nTotal: RM ${(totalPrice + 10).toFixed(2)}`;
