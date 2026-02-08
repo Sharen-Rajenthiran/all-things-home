@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   
   basePath: `/${repoName}`,
   assetPrefix: `/${repoName}/`,
-  
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
