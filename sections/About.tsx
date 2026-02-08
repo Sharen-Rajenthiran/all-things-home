@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const base = "/all-things-home";
+
 export default function About() {
     return (
         <section id="about" className="py-16 px-6 md:px-12 bg-gradient-to-r from-[#358E97] to-[#003067]">
@@ -8,7 +10,7 @@ export default function About() {
                 <div className="relative h-[500px] w-full">
                     <div className="absolute inset-0 flex items-center justify-center text-gray-400">
                         <Image
-                            src="/logo/all-things-home-removebg.png"
+                            src={`${base}/logo/all-things-home-removebg.png`}
                             alt="shop-logo"
                             fill
                             className="object-contain"
